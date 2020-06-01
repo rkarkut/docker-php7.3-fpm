@@ -12,6 +12,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y \
         libjpeg62-turbo-dev \
         libcurl4-nss-dev \
         libicu-dev \
+        libzip-dev \
         libxslt-dev \
     && apt-get install -y \
     && apt-get install -y unzip \
